@@ -1,5 +1,11 @@
 class Problem {
     // 构造方法 实例化类自动调用
+
+    status = {
+        goods: '小王',
+        info: "你快乐吗"
+
+    }
     constructor() {
             this.getData();
             // 获取保存按钮  绑定点击事件
